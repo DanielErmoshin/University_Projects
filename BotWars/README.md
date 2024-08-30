@@ -5,7 +5,7 @@
 Simulation a complex 4-player game set on the fictional planet Crematoria from the Riddick saga. The 4 players must incorporate a bot which will need to use graph algorithms and strategies to manage interactions among various units and aim for victory.
 
 ## How to Run:
-
+ 
 ### Compilation:
 
 To compile the game, run the following command in the terminal:
