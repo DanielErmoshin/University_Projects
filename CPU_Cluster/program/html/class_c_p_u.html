@@ -1,0 +1,1044 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulación del rendimiento de procesadores interconectados: Referencia de la Clase CPU</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Simulación del rendimiento de procesadores interconectados
+   &#160;<span id="projectnumber">version 23/05/2023</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-static-methods">Métodos privados estáticos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="class_c_p_u-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase CPU</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un Procesador.  
+ <a href="class_c_p_u.html#details">Más...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2fdd8153d0979ccad9ed8452897267f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a2fdd8153d0979ccad9ed8452897267f4">CPU</a> ()</td></tr>
+<tr class="memdesc:a2fdd8153d0979ccad9ed8452897267f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creadora por defecto.  <a href="class_c_p_u.html#a2fdd8153d0979ccad9ed8452897267f4">Más...</a><br /></td></tr>
+<tr class="separator:a2fdd8153d0979ccad9ed8452897267f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64435afb7396ccee86fc58e1918cc49e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a64435afb7396ccee86fc58e1918cc49e">alta_proceso</a> (const <a class="el" href="class_proceso.html">Proceso</a> &amp;pro)</td></tr>
+<tr class="memdesc:a64435afb7396ccee86fc58e1918cc49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alta proceso procesador.  <a href="class_c_p_u.html#a64435afb7396ccee86fc58e1918cc49e">Más...</a><br /></td></tr>
+<tr class="separator:a64435afb7396ccee86fc58e1918cc49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad83ab8adc995a63363d0939f5e1ed0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#aad83ab8adc995a63363d0939f5e1ed0f">baja_proceso</a> (int id_proceso)</td></tr>
+<tr class="memdesc:aad83ab8adc995a63363d0939f5e1ed0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Borrar proceso del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>.  <a href="class_c_p_u.html#aad83ab8adc995a63363d0939f5e1ed0f">Más...</a><br /></td></tr>
+<tr class="separator:aad83ab8adc995a63363d0939f5e1ed0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939a4458e31ff523be98d70b7b9bdb9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a939a4458e31ff523be98d70b7b9bdb9f">avanzar_tmp</a> (int t)</td></tr>
+<tr class="memdesc:a939a4458e31ff523be98d70b7b9bdb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avanzar tiempo.  <a href="class_c_p_u.html#a939a4458e31ff523be98d70b7b9bdb9f">Más...</a><br /></td></tr>
+<tr class="separator:a939a4458e31ff523be98d70b7b9bdb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa8142a9cddbe20ddf47a7bbe1dce1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a9fa8142a9cddbe20ddf47a7bbe1dce1f">compactar</a> ()</td></tr>
+<tr class="memdesc:a9fa8142a9cddbe20ddf47a7bbe1dce1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compactar la memoria del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>.  <a href="class_c_p_u.html#a9fa8142a9cddbe20ddf47a7bbe1dce1f">Más...</a><br /></td></tr>
+<tr class="separator:a9fa8142a9cddbe20ddf47a7bbe1dce1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ca77dfcedf98b5dd1308184b47f0a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a25ca77dfcedf98b5dd1308184b47f0a3">consultar_capacidad</a> () const</td></tr>
+<tr class="memdesc:a25ca77dfcedf98b5dd1308184b47f0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultar capacidad.  <a href="class_c_p_u.html#a25ca77dfcedf98b5dd1308184b47f0a3">Más...</a><br /></td></tr>
+<tr class="separator:a25ca77dfcedf98b5dd1308184b47f0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c73015934cd66cfa387f956d0bbe28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a80c73015934cd66cfa387f956d0bbe28">existe</a> (int id) const</td></tr>
+<tr class="memdesc:a80c73015934cd66cfa387f956d0bbe28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultar la existencia de un proceso.  <a href="class_c_p_u.html#a80c73015934cd66cfa387f956d0bbe28">Más...</a><br /></td></tr>
+<tr class="separator:a80c73015934cd66cfa387f956d0bbe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6dcfe6e0956440c7fc30572ab333af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a6a6dcfe6e0956440c7fc30572ab333af">vacio</a> () const</td></tr>
+<tr class="memdesc:a6a6dcfe6e0956440c7fc30572ab333af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultar estado de ocupación.  <a href="class_c_p_u.html#a6a6dcfe6e0956440c7fc30572ab333af">Más...</a><br /></td></tr>
+<tr class="separator:a6a6dcfe6e0956440c7fc30572ab333af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556cdae7ac9f4de0c0210feaae0d4457"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a556cdae7ac9f4de0c0210feaae0d4457">consultar_memoria_libre</a> () const</td></tr>
+<tr class="memdesc:a556cdae7ac9f4de0c0210feaae0d4457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultar memoria libre.  <a href="class_c_p_u.html#a556cdae7ac9f4de0c0210feaae0d4457">Más...</a><br /></td></tr>
+<tr class="separator:a556cdae7ac9f4de0c0210feaae0d4457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade35699430a6303822c83a8bc9aee001"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#ade35699430a6303822c83a8bc9aee001">espacio_para_proceso</a> (int size) const</td></tr>
+<tr class="memdesc:ade35699430a6303822c83a8bc9aee001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultar hueco para proceso.  <a href="class_c_p_u.html#ade35699430a6303822c83a8bc9aee001">Más...</a><br /></td></tr>
+<tr class="separator:ade35699430a6303822c83a8bc9aee001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61446dbe08118dea4d27816bd7152732"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a61446dbe08118dea4d27816bd7152732">procesos_pendientes</a> () const</td></tr>
+<tr class="memdesc:a61446dbe08118dea4d27816bd7152732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procesos pendientes.  <a href="class_c_p_u.html#a61446dbe08118dea4d27816bd7152732">Más...</a><br /></td></tr>
+<tr class="separator:a61446dbe08118dea4d27816bd7152732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc2ee48dc9c4ba1fa6860a3ce39fe78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#abcc2ee48dc9c4ba1fa6860a3ce39fe78">llegir</a> ()</td></tr>
+<tr class="memdesc:abcc2ee48dc9c4ba1fa6860a3ce39fe78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leer procesador.  <a href="class_c_p_u.html#abcc2ee48dc9c4ba1fa6860a3ce39fe78">Más...</a><br /></td></tr>
+<tr class="separator:abcc2ee48dc9c4ba1fa6860a3ce39fe78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b9a8031f102cd2cdb2d1ac56e6c90e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#af4b9a8031f102cd2cdb2d1ac56e6c90e">imprimir</a> () const</td></tr>
+<tr class="memdesc:af4b9a8031f102cd2cdb2d1ac56e6c90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imprimir todos los procesos de un procesador.  <a href="class_c_p_u.html#af4b9a8031f102cd2cdb2d1ac56e6c90e">Más...</a><br /></td></tr>
+<tr class="separator:af4b9a8031f102cd2cdb2d1ac56e6c90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Métodos privados estáticos</h2></td></tr>
+<tr class="memitem:a11f65df7105ac3d6edf34b00aa95fe3e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">insertar_hueco</a> (map&lt; int, set&lt; int &gt;&gt; &amp;<a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, int size, int position)</td></tr>
+<tr class="memdesc:a11f65df7105ac3d6edf34b00aa95fe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insertar hueco.  <a href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">Más...</a><br /></td></tr>
+<tr class="separator:a11f65df7105ac3d6edf34b00aa95fe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab878cc928df05c516059909a176ad267"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a> (map&lt; int, set&lt; int &gt;&gt; &amp;<a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, int s_gap, int pos_gap)</td></tr>
+<tr class="memdesc:ab878cc928df05c516059909a176ad267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Borrar hueco.  <a href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">Más...</a><br /></td></tr>
+<tr class="separator:ab878cc928df05c516059909a176ad267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258c748eba70d0c1e2ef05080c09e53a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a258c748eba70d0c1e2ef05080c09e53a">up_size</a> (map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator it, map&lt; int, set&lt; int &gt;&gt; &amp;<a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>)</td></tr>
+<tr class="memdesc:a258c748eba70d0c1e2ef05080c09e53a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mirar el hueco de arriba.  <a href="class_c_p_u.html#a258c748eba70d0c1e2ef05080c09e53a">Más...</a><br /></td></tr>
+<tr class="separator:a258c748eba70d0c1e2ef05080c09e53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05627b1165758d90e98816ce366b3714"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a05627b1165758d90e98816ce366b3714">down_size</a> (const map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt; &amp;<a class="el" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator it, int <a class="el" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, map&lt; int, set&lt; int &gt;&gt; &amp;<a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>)</td></tr>
+<tr class="memdesc:a05627b1165758d90e98816ce366b3714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mirar el hueco de abajo.  <a href="class_c_p_u.html#a05627b1165758d90e98816ce366b3714">Más...</a><br /></td></tr>
+<tr class="separator:a05627b1165758d90e98816ce366b3714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab942cb41b19d66b6b555723796e4b8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#adab942cb41b19d66b6b555723796e4b8">borrar_proceso</a> (map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt; &amp;<a class="el" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, map&lt; int, set&lt; int &gt;&gt; &amp;<a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, int <a class="el" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, int &amp;<a class="el" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a>, map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator &amp;it)</td></tr>
+<tr class="memdesc:adab942cb41b19d66b6b555723796e4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Borrar proceso.  <a href="class_c_p_u.html#adab942cb41b19d66b6b555723796e4b8">Más...</a><br /></td></tr>
+<tr class="separator:adab942cb41b19d66b6b555723796e4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a818a948ac16922818089bade5839b5f3"><td class="memItemLeft" align="right" valign="top">map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a></td></tr>
+<tr class="memdesc:a818a948ac16922818089bade5839b5f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapa de procesos.  <a href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">Más...</a><br /></td></tr>
+<tr class="separator:a818a948ac16922818089bade5839b5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa58e569732aeadb37fb624e0bbdc82"><td class="memItemLeft" align="right" valign="top">map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a></td></tr>
+<tr class="memdesc:aeaa58e569732aeadb37fb624e0bbdc82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapa de posiciones.  <a href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">Más...</a><br /></td></tr>
+<tr class="separator:aeaa58e569732aeadb37fb624e0bbdc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d81d957ce6e8a831e358efca3e0a5e"><td class="memItemLeft" align="right" valign="top">map&lt; int, set&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a></td></tr>
+<tr class="memdesc:a80d81d957ce6e8a831e358efca3e0a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapa de huecos.  <a href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">Más...</a><br /></td></tr>
+<tr class="separator:a80d81d957ce6e8a831e358efca3e0a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7732a3cad40d6bf7d4809dddf832497f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a></td></tr>
+<tr class="memdesc:a7732a3cad40d6bf7d4809dddf832497f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capacidad del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>.  <a href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">Más...</a><br /></td></tr>
+<tr class="separator:a7732a3cad40d6bf7d4809dddf832497f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe531a94d873150891d27d54853605d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a></td></tr>
+<tr class="memdesc:abe531a94d873150891d27d54853605d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memoria libre del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>.  <a href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">Más...</a><br /></td></tr>
+<tr class="separator:abe531a94d873150891d27d54853605d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Representa un Procesador. </p>
+<p>Este procesador dispone de una serie de procesos ordenados por disponibilidad de huecos libres de este mismo. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00019">19</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="a2fdd8153d0979ccad9ed8452897267f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fdd8153d0979ccad9ed8452897267f4">&#9670;&nbsp;</a></span>CPU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPU::CPU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creadora por defecto. </p>
+<p>Se ejecuta automáticamente al declarar un procesador. </p><dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un procesador vacío. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00006">6</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;         {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a> = 0;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_a7732a3cad40d6bf7d4809dddf832497f"><div class="ttname"><a href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">CPU::capacidad</a></div><div class="ttdeci">int capacidad</div><div class="ttdoc">Capacidad del CPU.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8hh_source.html#l00038">CPU.hh:38</a></div></div>
+<div class="ttc" id="aclass_c_p_u_html_abe531a94d873150891d27d54853605d0"><div class="ttname"><a href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">CPU::memoria_ocupada</a></div><div class="ttdeci">int memoria_ocupada</div><div class="ttdoc">Memoria libre del CPU.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8hh_source.html#l00040">CPU.hh:40</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a11f65df7105ac3d6edf34b00aa95fe3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f65df7105ac3d6edf34b00aa95fe3e">&#9670;&nbsp;</a></span>insertar_hueco()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::insertar_hueco </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Insertar hueco. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>size &gt; 0; position &gt;= 0. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si ya existíaa un hueco con el tamaño <em>size</em>, se añade la posición <em>position</em> al conjunto de posiciones de ese tamaño. En caso contrario, se crea una nueva entrada con ese tamaño de hueco y posición. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00087">87</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    map&lt;int,set&lt;int&gt;&gt;::iterator it_g = <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.find(size); </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;     <span class="keywordflow">if</span> (it_g == <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.end()) { <span class="comment">//Si no existe un hueco del tamaño size, creamos nuevo hueco.</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        set&lt;int&gt; aux;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        aux.insert(position); </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.insert (make_pair (size, aux));</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">else</span> (*it_g).second.insert(position); <span class="comment">//Añadimos la posición del hueco al set.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_a80d81d957ce6e8a831e358efca3e0a5e"><div class="ttname"><a href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">CPU::gap</a></div><div class="ttdeci">map&lt; int, set&lt; int &gt; &gt; gap</div><div class="ttdoc">Mapa de huecos.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8hh_source.html#l00036">CPU.hh:36</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab878cc928df05c516059909a176ad267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab878cc928df05c516059909a176ad267">&#9670;&nbsp;</a></span>borrar_pos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::borrar_pos </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s_gap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos_gap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Borrar hueco. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>gap NO vacío; s_gap &gt; 0. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se borra la posición <em>pos_gap</em> del hueco de tamaño <em>s_gap</em>. En el caso de que el conjunto de posiciones quede vacío, se borra el hueco en si. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00142">142</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    map&lt;int, set&lt;int&gt;&gt;::iterator it = <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.find(s_gap);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    set&lt;int&gt;::iterator it1;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">if</span> (pos_gap &lt; 0) it1 = (*it).second.begin(); <span class="comment">//Si pos_gap &lt; 0, sabemos que borraremos la primera posición del hueco (alta_proceso).</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">else</span> it1 = (*it).second.find(pos_gap);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    (*it).second.erase(it1);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">if</span> ((*it).second.empty()) <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.erase(it);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a258c748eba70d0c1e2ef05080c09e53a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258c748eba70d0c1e2ef05080c09e53a">&#9670;&nbsp;</a></span>up_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::up_size </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mirar el hueco de arriba. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Entran como parámetros implícitos un iterador del mapa de procesos y el mapa de huecos. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si hay hueco entre el proceso actual y el procesador anterior, se borra ese hueco y lo retorna. En el caso contrario, retorna 0 (no hay hueco). </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00065">65</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> posi = (*it).first; <span class="comment">//Donde empieza el proceso actual</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    --it;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> size_p_a = (*it).first +(*it).second.consultar_space();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span> (posi - size_p_a != 0) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a>(<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>,posi - size_p_a,size_p_a);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> posi - size_p_a; <span class="comment">//Devolvemos en hueco que hay entre el proceso actual y el anterior.</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> 0; <span class="comment">//En caso de que no haya espacio entre proceso anterior y el actual.</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_ab878cc928df05c516059909a176ad267"><div class="ttname"><a href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">CPU::borrar_pos</a></div><div class="ttdeci">static void borrar_pos(map&lt; int, set&lt; int &gt;&gt; &amp;gap, int s_gap, int pos_gap)</div><div class="ttdoc">Borrar hueco.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8cc_source.html#l00142">CPU.cc:142</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a05627b1165758d90e98816ce366b3714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05627b1165758d90e98816ce366b3714">&#9670;&nbsp;</a></span>down_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::down_size </td>
+          <td>(</td>
+          <td class="paramtype">const map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>capacidad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mirar el hueco de abajo. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Mapa de procesos mem NO vacío, capacidad entero NO negativo. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si hay hueco entre el proceso actual y el procesador posterior, se borra ese hueco y lo retorna. En el caso de que no haya hueco o se trate del último proceso, retorna 0. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00076">76</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                                                                                    {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">int</span> size_p = (*it).first + (*it).second.consultar_space();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    ++it;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.end()) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - size_p &gt; 0) <a class="code" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a>(<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>,<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - size_p,size_p);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - size_p); <span class="comment">//Devolvemos la diferencia entre la capacidad total y el tamaño desde la posicion q ocupa el proceso.</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span> ((*it).first - size_p &gt; 0) <a class="code" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a>(<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>,(*it).first - size_p,size_p);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> ((*it).first - size_p); <span class="comment">//Devolvemos el espacio que hay entre el proceso actual y el posterior.</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_a818a948ac16922818089bade5839b5f3"><div class="ttname"><a href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">CPU::mem</a></div><div class="ttdeci">map&lt; int, Proceso &gt; mem</div><div class="ttdoc">Mapa de procesos.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8hh_source.html#l00026">CPU.hh:26</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adab942cb41b19d66b6b555723796e4b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab942cb41b19d66b6b555723796e4b8">&#9670;&nbsp;</a></span>borrar_proceso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::borrar_proceso </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, set&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>gap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>capacidad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>memoria_ocupada</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">map&lt; int, <a class="el" href="class_proceso.html">Proceso</a> &gt;::iterator &amp;&#160;</td>
+          <td class="paramname"><em>it</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Borrar proceso. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>mem NO vacío; capacidad y memoria_ocupada enteros NO negativos. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Borra el proceso al cual apunta el iterador it y añade un nuevo hueco a gap. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00039">39</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                                                                                                         {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> arriba, abajo, total, posi;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.begin()) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span>((*it).first &gt; 0) { <span class="comment">//Miramos si el primer proceso se encuentra en la posición 0.</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a>(<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>,(*it).first,0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            arriba = (*it).first; <span class="comment">//Arriba pasa a valer el hueco que habia entre pa posición 0 y el proceso.</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">else</span> arriba = 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        posi = 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        abajo = <a class="code" href="class_c_p_u.html#a05627b1165758d90e98816ce366b3714">down_size</a>(<a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, it, <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;       </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        arriba = <a class="code" href="class_c_p_u.html#a258c748eba70d0c1e2ef05080c09e53a">up_size</a> (it, <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>); <span class="comment">//tamaño del hueco de arriba</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        abajo = <a class="code" href="class_c_p_u.html#a05627b1165758d90e98816ce366b3714">down_size</a>(<a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, it, <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>); <span class="comment">//tamaño del hueco de abajo</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    total = arriba + abajo + (*it).second.consultar_space(); <span class="comment">//Hueco total que dejaremos al borrar el proceso</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    posi = (*it).first - arriba; <span class="comment">//Posicion donde empieza el hueco</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a> -= (*it).second.consultar_space();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.erase (it);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">insertar_hueco</a> (<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, total, posi);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_a05627b1165758d90e98816ce366b3714"><div class="ttname"><a href="class_c_p_u.html#a05627b1165758d90e98816ce366b3714">CPU::down_size</a></div><div class="ttdeci">static int down_size(const map&lt; int, Proceso &gt; &amp;mem, map&lt; int, Proceso &gt;::iterator it, int capacidad, map&lt; int, set&lt; int &gt;&gt; &amp;gap)</div><div class="ttdoc">Mirar el hueco de abajo.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8cc_source.html#l00076">CPU.cc:76</a></div></div>
+<div class="ttc" id="aclass_c_p_u_html_a11f65df7105ac3d6edf34b00aa95fe3e"><div class="ttname"><a href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">CPU::insertar_hueco</a></div><div class="ttdeci">static void insertar_hueco(map&lt; int, set&lt; int &gt;&gt; &amp;gap, int size, int position)</div><div class="ttdoc">Insertar hueco.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8cc_source.html#l00087">CPU.cc:87</a></div></div>
+<div class="ttc" id="aclass_c_p_u_html_a258c748eba70d0c1e2ef05080c09e53a"><div class="ttname"><a href="class_c_p_u.html#a258c748eba70d0c1e2ef05080c09e53a">CPU::up_size</a></div><div class="ttdeci">static int up_size(map&lt; int, Proceso &gt;::iterator it, map&lt; int, set&lt; int &gt;&gt; &amp;gap)</div><div class="ttdoc">Mirar el hueco de arriba.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8cc_source.html#l00065">CPU.cc:65</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a64435afb7396ccee86fc58e1918cc49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64435afb7396ccee86fc58e1918cc49e">&#9670;&nbsp;</a></span>alta_proceso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::alta_proceso </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_proceso.html">Proceso</a> &amp;&#160;</td>
+          <td class="paramname"><em>pro</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alta proceso procesador. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si existe espacio en la memoria, añade el proceso al <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a> y devuelve 0. En caso contrario devuelve 3. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00011">11</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                                         {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> &lt; pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>() or (<a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a> + pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>()) &gt; <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>) <span class="keywordflow">return</span> 3;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    map&lt;int, set&lt;int&gt;&gt;::iterator it = <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.lower_bound(pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>()); <span class="comment">//Encontramos el hueco más ajustado al tamaño de pro</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.end()) <span class="keywordflow">return</span> 3;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">int</span> s_gap = (*it).first; <span class="comment">//tamaño hueco</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> pos_gap = (*(*it).second.begin()); <span class="comment">//primera posición que ocupa el hueco</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="class_c_p_u.html#ab878cc928df05c516059909a176ad267">borrar_pos</a>(<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, s_gap, -1); <span class="comment">//Borramos el hueco</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.insert (make_pair (pos_gap, pro)); <span class="comment">//Insertamos proceso</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a> += pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.insert (make_pair (pro.<a class="code" href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">consultar_id</a>(), pos_gap));</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (s_gap &gt; pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>()) { <span class="comment">//Si el hueco inicial es mayor que el tamaño del proceso:</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">int</span> s1_gap = s_gap - pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>(); <span class="comment">//Se crea un hueco de x tamaño.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">int</span> pos1_gap = pos_gap + pro.<a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">consultar_space</a>(); <span class="comment">//La posición de este nuevo hueco es la siguiente.</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">insertar_hueco</a> (<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, s1_gap, pos1_gap); </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_aeaa58e569732aeadb37fb624e0bbdc82"><div class="ttname"><a href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">CPU::pos</a></div><div class="ttdeci">map&lt; int, int &gt; pos</div><div class="ttdoc">Mapa de posiciones.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8hh_source.html#l00031">CPU.hh:31</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a33b52579d6ee93986d33341bacc86521"><div class="ttname"><a href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">Proceso::consultar_id</a></div><div class="ttdeci">int consultar_id() const</div><div class="ttdoc">Consultora de identificador.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00019">Proceso.cc:19</a></div></div>
+<div class="ttc" id="aclass_proceso_html_ab38485dcaf5feb0d1d0aff2ea7ff249a"><div class="ttname"><a href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">Proceso::consultar_space</a></div><div class="ttdeci">int consultar_space() const</div><div class="ttdoc">Consultora de tamaño.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00023">Proceso.cc:23</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aad83ab8adc995a63363d0939f5e1ed0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad83ab8adc995a63363d0939f5e1ed0f">&#9670;&nbsp;</a></span>baja_proceso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::baja_proceso </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id_proceso</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Borrar proceso del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>ciert</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>En el caso de encontrar un proceso con el mismo identificador, lo borra y devuelve 0. En el caso que no exista el proceso, devuelve 0. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00031">31</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                 {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    map&lt;int, int&gt;::iterator ini = <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.find(id_pro); <span class="comment">//Miramos si existe el proceso en el CPU.</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (ini == <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.end()) <span class="keywordflow">return</span> 2; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    map&lt;int, Proceso&gt;::iterator it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.find((*ini).second);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.erase(ini); <span class="comment">//Borramos el proceso del mapa de posiciones</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#adab942cb41b19d66b6b555723796e4b8">borrar_proceso</a>(<a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a>, it);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="ttc" id="aclass_c_p_u_html_adab942cb41b19d66b6b555723796e4b8"><div class="ttname"><a href="class_c_p_u.html#adab942cb41b19d66b6b555723796e4b8">CPU::borrar_proceso</a></div><div class="ttdeci">static int borrar_proceso(map&lt; int, Proceso &gt; &amp;mem, map&lt; int, set&lt; int &gt;&gt; &amp;gap, int capacidad, int &amp;memoria_ocupada, map&lt; int, Proceso &gt;::iterator &amp;it)</div><div class="ttdoc">Borrar proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_c_p_u_8cc_source.html#l00039">CPU.cc:39</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a939a4458e31ff523be98d70b7b9bdb9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939a4458e31ff523be98d70b7b9bdb9f">&#9670;&nbsp;</a></span>avanzar_tmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::avanzar_tmp </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Avanzar tiempo. </p>
+<p>Avanzar el tiempo de todos los procesos de la <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </p><dl class="section pre"><dt>Precondición</dt><dd>t &gt;= 0. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Avanza el tiempo de todos los procesos de la <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. En caso de que el tiempo resultante no sea válido, se elimina el proceso. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00097">97</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                           {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    map&lt;int, Proceso&gt;::iterator it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.begin();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">while</span> (it != <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.end()) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">int</span> x = (*it).second.avanzar_t(t);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">if</span> (x &lt; 0) { <span class="comment">//Si el tiempo queda invalido, borramos el proceso del CPU.</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            map&lt;int, int&gt;::iterator ini = <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.find((*it).second.consultar_id());</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.erase(ini);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <a class="code" href="class_c_p_u.html#adab942cb41b19d66b6b555723796e4b8">borrar_proceso</a>(<a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>, <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a>, it);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">else</span> ++it;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9fa8142a9cddbe20ddf47a7bbe1dce1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa8142a9cddbe20ddf47a7bbe1dce1f">&#9670;&nbsp;</a></span>compactar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::compactar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compactar la memoria del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Compacta la memoria del procesador de manera que no deja huecos, los procesos no se solapan y se respeta el orden inicial. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00110">110</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                     {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    map&lt;int,Proceso&gt;::iterator it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.begin();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span> ((*it).first != 0) { <span class="comment">//Miramos que el primer proceso se encuentre en la posición 0.</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="class_proceso.html">Proceso</a> pro = (*it).second;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.erase (it);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.insert (make_pair (0, pro));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            map&lt;int,int&gt;::iterator it_p = <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.find(pro.<a class="code" href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">consultar_id</a>()); <span class="comment">//encontramos el proceso en pos i actualizamos la posicón de este.</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            (*it_p).second = 0;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.begin();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        ++it;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">while</span> (it != <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.end()) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            map &lt;int, Proceso&gt;::iterator aux = it;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            --aux; <span class="comment">//Apuntamos al proceso anterior.</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordtype">int</span> pos_anterior = (*aux).first + (*aux).second.consultar_space();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">if</span> ((*it).first - pos_anterior != 0) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                map&lt;int,int&gt;::iterator it_p = <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.find((*it).second.consultar_id()); <span class="comment">//encontramos el proceso i actualizamos su posicón .</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                (*it_p).second =  pos_anterior;<span class="comment">//Comenzará a partir de donde acaba el proceso anterior.</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <a class="code" href="class_proceso.html">Proceso</a> pro = (*it).second;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.erase (it);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.insert (make_pair (pos_anterior, pro));</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.find(pos_anterior);  </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            }  </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            ++it;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    --it;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">int</span> x = (*it).first + (*it).second.consultar_space();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    map &lt;int, set&lt;int&gt;&gt; aux;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a> = aux; <span class="comment">//Actualizamos mapa de huecos.</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - x != 0) <a class="code" href="class_c_p_u.html#a11f65df7105ac3d6edf34b00aa95fe3e">insertar_hueco</a> (<a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>, <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - x, x); <span class="comment">//Si hay hueco entre el último proceso y la capacidad total, lo añadimos.</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
+<div class="ttc" id="aclass_proceso_html"><div class="ttname"><a href="class_proceso.html">Proceso</a></div><div class="ttdoc">Representa un Proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8hh_source.html#l00018">Proceso.hh:18</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a25ca77dfcedf98b5dd1308184b47f0a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ca77dfcedf98b5dd1308184b47f0a3">&#9670;&nbsp;</a></span>consultar_capacidad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::consultar_capacidad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultar capacidad. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Retorna la capacidad de la <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00157">157</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                   {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a80c73015934cd66cfa387f956d0bbe28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c73015934cd66cfa387f956d0bbe28">&#9670;&nbsp;</a></span>existe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPU::existe </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultar la existencia de un proceso. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>True si existe un proceso con el mismo identificador. False en caso contrario. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00161">161</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                             {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.find(<span class="keywordtype">id</span>) != <a class="code" href="class_c_p_u.html#aeaa58e569732aeadb37fb624e0bbdc82">pos</a>.end();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6a6dcfe6e0956440c7fc30572ab333af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6dcfe6e0956440c7fc30572ab333af">&#9670;&nbsp;</a></span>vacio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPU::vacio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultar estado de ocupación. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>True si no contiene ningún proceso. False en caso contrario. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00165">165</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                      {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.empty();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a556cdae7ac9f4de0c0210feaae0d4457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556cdae7ac9f4de0c0210feaae0d4457">&#9670;&nbsp;</a></span>consultar_memoria_libre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::consultar_memoria_libre </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultar memoria libre. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Retorna la memoria libre de la cual dispone el <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00169">169</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                       {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a> - <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ade35699430a6303822c83a8bc9aee001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade35699430a6303822c83a8bc9aee001">&#9670;&nbsp;</a></span>espacio_para_proceso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::espacio_para_proceso </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultar hueco para proceso. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em>. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>En el caso de haber un hueco mayor o igual a <em>size</em> retorna este mismo. En caso contrario retorna -1. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00151">151</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                                             {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    map&lt;int, set&lt;int&gt;&gt;::const_iterator it = <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.lower_bound(size);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">if</span> (it != <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.end()) <span class="keywordflow">return</span> (*it).first;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a61446dbe08118dea4d27816bd7152732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61446dbe08118dea4d27816bd7152732">&#9670;&nbsp;</a></span>procesos_pendientes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CPU::procesos_pendientes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procesos pendientes. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>True si tiene procesos pendientes. False si no tiene procesos pendientes. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00173">173</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                   {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_c_p_u.html#abe531a94d873150891d27d54853605d0">memoria_ocupada</a> != 0;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abcc2ee48dc9c4ba1fa6860a3ce39fe78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc2ee48dc9c4ba1fa6860a3ce39fe78">&#9670;&nbsp;</a></span>llegir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::llegir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Leer procesador. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El parámetro implícito es el procesador tomado del canal de entrada estándar. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00177">177</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                 {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    cin &gt;&gt; <a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    set&lt;int&gt; aux;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    aux.insert(0);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="class_c_p_u.html#a80d81d957ce6e8a831e358efca3e0a5e">gap</a>.insert (make_pair (<a class="code" href="class_c_p_u.html#a7732a3cad40d6bf7d4809dddf832497f">capacidad</a>, aux));</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af4b9a8031f102cd2cdb2d1ac56e6c90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b9a8031f102cd2cdb2d1ac56e6c90e">&#9670;&nbsp;</a></span>imprimir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPU::imprimir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Imprimir todos los procesos de un procesador. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Imprime todos los procesos junto al espacio que ocupan, el tiempo de ejecución que les falta y la posición en la memoria de cada uno, por el canal de salida estándar. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8cc_source.html#l00184">184</a> del archivo <a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                         {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    map&lt;int, Proceso&gt;::const_iterator it = <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.begin();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">while</span> (it != <a class="code" href="class_c_p_u.html#a818a948ac16922818089bade5839b5f3">mem</a>.end()) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        cout &lt;&lt; (*it).first &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        (*it).second.escribir();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        ++it;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a818a948ac16922818089bade5839b5f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818a948ac16922818089bade5839b5f3">&#9670;&nbsp;</a></span>mem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;int,<a class="el" href="class_proceso.html">Proceso</a>&gt; CPU::mem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mapa de procesos. </p>
+<p>La clave contiene la posición del proceso en la memoria y el segundo valor es el proceso como tal. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00026">26</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+
+</div>
+</div>
+<a id="aeaa58e569732aeadb37fb624e0bbdc82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa58e569732aeadb37fb624e0bbdc82">&#9670;&nbsp;</a></span>pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;int,int&gt; CPU::pos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mapa de posiciones. </p>
+<p>La clave contiene el identificador del proceso y el segundo valor es el proceso como tal. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00031">31</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+
+</div>
+</div>
+<a id="a80d81d957ce6e8a831e358efca3e0a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d81d957ce6e8a831e358efca3e0a5e">&#9670;&nbsp;</a></span>gap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;int,set&lt;int&gt; &gt; CPU::gap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mapa de huecos. </p>
+<p>La clave contiene el tamaño del hueco y el segundo valor es un set que contiene todas las posiciones de los huecos con ese mismo tamaño. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00036">36</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+
+</div>
+</div>
+<a id="a7732a3cad40d6bf7d4809dddf832497f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7732a3cad40d6bf7d4809dddf832497f">&#9670;&nbsp;</a></span>capacidad</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::capacidad</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Capacidad del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00038">38</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+
+</div>
+</div>
+<a id="abe531a94d873150891d27d54853605d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe531a94d873150891d27d54853605d0">&#9670;&nbsp;</a></span>memoria_ocupada</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CPU::memoria_ocupada</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Memoria libre del <a class="el" href="class_c_p_u.html" title="Representa un Procesador.">CPU</a>. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_c_p_u_8hh_source.html#l00040">40</a> del archivo <a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="_c_p_u_8hh_source.html">CPU.hh</a></li>
+<li><a class="el" href="_c_p_u_8cc_source.html">CPU.cc</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

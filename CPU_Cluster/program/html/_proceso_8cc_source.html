@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulación del rendimiento de procesadores interconectados: Fichero Fuente Proceso.cc</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Simulación del rendimiento de procesadores interconectados
+   &#160;<span id="projectnumber">version 23/05/2023</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Proceso.cc</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_proceso_8cc.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_proceso_8hh.html">Proceso.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_proceso.html#a632f57d6ec48e76c80fbeb7734c1148c">    7</a></span>&#160;<a class="code" href="class_proceso.html#a632f57d6ec48e76c80fbeb7734c1148c">Proceso::Proceso</a>() {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="class_proceso.html#a05023cae2b605079ec2277a37d8a914e">id_proceso</a> = 0;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="class_proceso.html#ac76a6c29bdf6683f11b39fa6983b5220">space</a> = 0;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">t_ej</a> = 0;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_proceso.html#a4cfd8f2957a269846b42b8fc4fa6785d">   13</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_proceso.html#a4cfd8f2957a269846b42b8fc4fa6785d">Proceso::avanzar_t</a>(<span class="keywordtype">int</span> t) {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">t_ej</a> -= t;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">t_ej</a> &lt;= 0) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">   19</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">Proceso::consultar_id</a>()<span class="keyword"> const</span>{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_proceso.html#a05023cae2b605079ec2277a37d8a914e">id_proceso</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">   23</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">Proceso::consultar_space</a>()<span class="keyword"> const</span>{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_proceso.html#ac76a6c29bdf6683f11b39fa6983b5220">space</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_proceso.html#ad133f53bba77755f779ef63b6e529cdb">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_proceso.html#ad133f53bba77755f779ef63b6e529cdb">Proceso::leer</a>() {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    cin &gt;&gt; <a class="code" href="class_proceso.html#a05023cae2b605079ec2277a37d8a914e">id_proceso</a> &gt;&gt; <a class="code" href="class_proceso.html#ac76a6c29bdf6683f11b39fa6983b5220">space</a> &gt;&gt; <a class="code" href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">t_ej</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_proceso.html#a1c038ea4cc370e4bbc7b8d309d5da708">   31</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_proceso.html#a1c038ea4cc370e4bbc7b8d309d5da708">Proceso::escribir</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    cout &lt;&lt; <a class="code" href="class_proceso.html#a05023cae2b605079ec2277a37d8a914e">id_proceso</a> &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code" href="class_proceso.html#ac76a6c29bdf6683f11b39fa6983b5220">space</a> &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code" href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">t_ej</a> &lt;&lt; endl;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="ttc" id="a_proceso_8hh_html"><div class="ttname"><a href="_proceso_8hh.html">Proceso.hh</a></div><div class="ttdoc">Especificación de la clase Proceso.</div></div>
+<div class="ttc" id="aclass_proceso_html_a05023cae2b605079ec2277a37d8a914e"><div class="ttname"><a href="class_proceso.html#a05023cae2b605079ec2277a37d8a914e">Proceso::id_proceso</a></div><div class="ttdeci">int id_proceso</div><div class="ttdoc">Identificador del proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8hh_source.html#l00021">Proceso.hh:21</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a1c038ea4cc370e4bbc7b8d309d5da708"><div class="ttname"><a href="class_proceso.html#a1c038ea4cc370e4bbc7b8d309d5da708">Proceso::escribir</a></div><div class="ttdeci">void escribir() const</div><div class="ttdoc">Operación de escritura.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00031">Proceso.cc:31</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a33b52579d6ee93986d33341bacc86521"><div class="ttname"><a href="class_proceso.html#a33b52579d6ee93986d33341bacc86521">Proceso::consultar_id</a></div><div class="ttdeci">int consultar_id() const</div><div class="ttdoc">Consultora de identificador.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00019">Proceso.cc:19</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a4cfd8f2957a269846b42b8fc4fa6785d"><div class="ttname"><a href="class_proceso.html#a4cfd8f2957a269846b42b8fc4fa6785d">Proceso::avanzar_t</a></div><div class="ttdeci">int avanzar_t(int t)</div><div class="ttdoc">Avanzar el tiempo de ejecución.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00013">Proceso.cc:13</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a60970a8fb2039a1a9a738e01a478aa77"><div class="ttname"><a href="class_proceso.html#a60970a8fb2039a1a9a738e01a478aa77">Proceso::t_ej</a></div><div class="ttdeci">int t_ej</div><div class="ttdoc">Tiempo de ejecución del proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8hh_source.html#l00025">Proceso.hh:25</a></div></div>
+<div class="ttc" id="aclass_proceso_html_a632f57d6ec48e76c80fbeb7734c1148c"><div class="ttname"><a href="class_proceso.html#a632f57d6ec48e76c80fbeb7734c1148c">Proceso::Proceso</a></div><div class="ttdeci">Proceso()</div><div class="ttdoc">Creadora por defecto.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00007">Proceso.cc:7</a></div></div>
+<div class="ttc" id="aclass_proceso_html_ab38485dcaf5feb0d1d0aff2ea7ff249a"><div class="ttname"><a href="class_proceso.html#ab38485dcaf5feb0d1d0aff2ea7ff249a">Proceso::consultar_space</a></div><div class="ttdeci">int consultar_space() const</div><div class="ttdoc">Consultora de tamaño.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00023">Proceso.cc:23</a></div></div>
+<div class="ttc" id="aclass_proceso_html_ac76a6c29bdf6683f11b39fa6983b5220"><div class="ttname"><a href="class_proceso.html#ac76a6c29bdf6683f11b39fa6983b5220">Proceso::space</a></div><div class="ttdeci">int space</div><div class="ttdoc">Tamaño del proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8hh_source.html#l00023">Proceso.hh:23</a></div></div>
+<div class="ttc" id="aclass_proceso_html_ad133f53bba77755f779ef63b6e529cdb"><div class="ttname"><a href="class_proceso.html#ad133f53bba77755f779ef63b6e529cdb">Proceso::leer</a></div><div class="ttdeci">void leer()</div><div class="ttdoc">Operación de lectura.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8cc_source.html#l00027">Proceso.cc:27</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

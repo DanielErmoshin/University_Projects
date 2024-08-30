@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulación del rendimiento de procesadores interconectados: Fichero Fuente Area_Procesos.cc</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Simulación del rendimiento de procesadores interconectados
+   &#160;<span id="projectnumber">version 23/05/2023</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Area_Procesos.cc</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_area___procesos_8cc.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_area___procesos_8hh.html">Area_Procesos.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_area___procesos.html#a7bb67af68388c2fc4ff1acf60ac915af">    6</a></span>&#160;<a class="code" href="class_area___procesos.html#a7bb67af68388c2fc4ff1acf60ac915af">Area_Procesos::Area_Procesos</a>() {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_area___procesos.html#a86d583942c9724251a169fc89ac4112d">   10</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_area___procesos.html#a86d583942c9724251a169fc89ac4112d">Area_Procesos::alta_prioridad</a> (<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; id_pri) {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;   map&lt;string,Priority&gt;::const_iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.find(id_pri); <span class="comment">//Consultamos en el area de espera si existe la prioridad con el id id_pri.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;   <span class="keywordflow">if</span> (it != <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end()) <span class="keywordflow">return</span> 1; <span class="comment">//Si existe devolvemos error 1 (consultar en program.cc).</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;   <a class="code" href="class_priority.html">Priority</a> p;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;   <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.insert (make_pair(id_pri, p));</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;   <span class="keywordflow">return</span> 0; <span class="comment">//No hay error.</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_area___procesos.html#a9199afbb2308942d9f5f578797e45e44">   18</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_area___procesos.html#a9199afbb2308942d9f5f578797e45e44">Area_Procesos::baja_prioridad</a> (<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; id_pri) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    map&lt;string,Priority&gt;::const_iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.find(id_pri); <span class="comment">//Consultamos en el area de espera si existe la prioridad con el id id_pri.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end()) <span class="keywordflow">return</span> 1; <span class="comment">//Si no existe devolvemos error 1 (consultar en program.cc).</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> ((*it).second.procesos_pendientes()) <span class="keywordflow">return</span> 2; <span class="comment">//Si la prioridad tiene procesos pendientes. Si se da el caso, devuelve error 2.</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.erase (it); </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_area___procesos.html#abbbfbb5b0b8975e5f9d4bc1ed2621b5c">   26</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_area___procesos.html#abbbfbb5b0b8975e5f9d4bc1ed2621b5c">Area_Procesos::alta_proceso_espera</a> (<span class="keyword">const</span> <a class="code" href="class_proceso.html">Proceso</a>&amp; pro, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; id_pri) {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    map&lt;string,Priority&gt;::iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.find(id_pri);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end()) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> x = (*it).second.existe_proceso(pro); <span class="comment">//Consulta en la prioridad si existe un proceso con el mismo identificador.</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (x &lt; 0) <span class="keywordflow">return</span> 2; <span class="comment">//Si no existe, la función existe_proceso(pro) devuelve -1. En ese caso, devolvemos error 2.</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_area___procesos.html#af69f44cc1e0c595558628cb2e456cf40">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_area___procesos.html#af69f44cc1e0c595558628cb2e456cf40">Area_Procesos::enviar_procesos_cluster</a>(<span class="keywordtype">int</span> n, <a class="code" href="class_cluster.html">Cluster</a> &amp;c) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    map&lt;string, Priority&gt;::iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.begin();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">//Inv: n &lt;= N y it apunta siempre a un elemento de area.</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">while</span> (it != <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end() and n != 0) { <span class="comment">//En el momento que hemos recorrido todas las prioridades o que los n procesos han sido enviados, sale.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        (*it).second.enviar_procesos (n, c);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ++it;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_area___procesos.html#a7495f7a3d4f520daa695ddd95a19a874">   43</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_area___procesos.html#a7495f7a3d4f520daa695ddd95a19a874">Area_Procesos::inicializar</a>() {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> n;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    cin &gt;&gt; n;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">while</span> (n != 0) {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">string</span> id_pri;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        cin &gt;&gt; id_pri;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="class_priority.html">Priority</a> p;  </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.insert (make_pair (id_pri, p));</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        --n;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="class_area___procesos.html#ab50f6fbf0f25590dff7ec4dd5e0d09fc">   55</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_area___procesos.html#ab50f6fbf0f25590dff7ec4dd5e0d09fc">Area_Procesos::imprimir_prioridad</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; id_pri) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    map&lt;string,Priority&gt;::iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.find(id_pri);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (it == <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end()) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    (*it).second.imprimir_p();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    (*it).second.imprimir_envios();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_area___procesos.html#af9989fdce6619bd90fa11ea0c988a4b0">   63</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_area___procesos.html#af9989fdce6619bd90fa11ea0c988a4b0">Area_Procesos::imprimir_area_espera</a>() {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    map&lt;string, Priority&gt;::const_iterator it = <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.begin();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">while</span> (it != <a class="code" href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">area</a>.end()) { </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        cout &lt;&lt; (*it).first &lt;&lt; endl;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">if</span> ((*it).second.procesos_pendientes()) (*it).second.imprimir_p(); <span class="comment">//Si la prioridad tiene procesos pendientes, los imprime.</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        (*it).second.imprimir_envios(); <span class="comment">//Siempre imprime cuantos procesos han sido aceptados por el cluster, y cuantos han sido rechazados.</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        ++it;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    } </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="ttc" id="a_area___procesos_8hh_html"><div class="ttname"><a href="_area___procesos_8hh.html">Area_Procesos.hh</a></div><div class="ttdoc">Especificación de la clase Area_Procesos.</div></div>
+<div class="ttc" id="aclass_area___procesos_html_a4647669062a301753962a3a47098c7da"><div class="ttname"><a href="class_area___procesos.html#a4647669062a301753962a3a47098c7da">Area_Procesos::area</a></div><div class="ttdeci">map&lt; string, Priority &gt; area</div><div class="ttdoc">Mapa de Prioridades.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8hh_source.html#l00031">Area_Procesos.hh:31</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_a7495f7a3d4f520daa695ddd95a19a874"><div class="ttname"><a href="class_area___procesos.html#a7495f7a3d4f520daa695ddd95a19a874">Area_Procesos::inicializar</a></div><div class="ttdeci">void inicializar()</div><div class="ttdoc">Inizializador del area de procesos.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00043">Area_Procesos.cc:43</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_a7bb67af68388c2fc4ff1acf60ac915af"><div class="ttname"><a href="class_area___procesos.html#a7bb67af68388c2fc4ff1acf60ac915af">Area_Procesos::Area_Procesos</a></div><div class="ttdeci">Area_Procesos()</div><div class="ttdoc">Creadora por defecto.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00006">Area_Procesos.cc:6</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_a86d583942c9724251a169fc89ac4112d"><div class="ttname"><a href="class_area___procesos.html#a86d583942c9724251a169fc89ac4112d">Area_Procesos::alta_prioridad</a></div><div class="ttdeci">int alta_prioridad(const string &amp;id_pri)</div><div class="ttdoc">Alta de una prioridad.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00010">Area_Procesos.cc:10</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_a9199afbb2308942d9f5f578797e45e44"><div class="ttname"><a href="class_area___procesos.html#a9199afbb2308942d9f5f578797e45e44">Area_Procesos::baja_prioridad</a></div><div class="ttdeci">int baja_prioridad(const string &amp;id_pri)</div><div class="ttdoc">Baja de una prioridad.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00018">Area_Procesos.cc:18</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_ab50f6fbf0f25590dff7ec4dd5e0d09fc"><div class="ttname"><a href="class_area___procesos.html#ab50f6fbf0f25590dff7ec4dd5e0d09fc">Area_Procesos::imprimir_prioridad</a></div><div class="ttdeci">int imprimir_prioridad(const string &amp;id_pri)</div><div class="ttdoc">Imprime los procesos pendientes de una prioridad.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00055">Area_Procesos.cc:55</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_abbbfbb5b0b8975e5f9d4bc1ed2621b5c"><div class="ttname"><a href="class_area___procesos.html#abbbfbb5b0b8975e5f9d4bc1ed2621b5c">Area_Procesos::alta_proceso_espera</a></div><div class="ttdeci">int alta_proceso_espera(const Proceso &amp;pro, const string &amp;id_pri)</div><div class="ttdoc">Alta de un proceso en el Area de Procesos pendientes.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00026">Area_Procesos.cc:26</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_af69f44cc1e0c595558628cb2e456cf40"><div class="ttname"><a href="class_area___procesos.html#af69f44cc1e0c595558628cb2e456cf40">Area_Procesos::enviar_procesos_cluster</a></div><div class="ttdeci">void enviar_procesos_cluster(int n, Cluster &amp;c)</div><div class="ttdoc">Envia n procesos de las prioridades al cluster.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00034">Area_Procesos.cc:34</a></div></div>
+<div class="ttc" id="aclass_area___procesos_html_af9989fdce6619bd90fa11ea0c988a4b0"><div class="ttname"><a href="class_area___procesos.html#af9989fdce6619bd90fa11ea0c988a4b0">Area_Procesos::imprimir_area_espera</a></div><div class="ttdeci">void imprimir_area_espera()</div><div class="ttdoc">Imprime los procesos pendientes del area de procesos.</div><div class="ttdef"><b>Definition:</b> <a href="_area___procesos_8cc_source.html#l00063">Area_Procesos.cc:63</a></div></div>
+<div class="ttc" id="aclass_cluster_html"><div class="ttname"><a href="class_cluster.html">Cluster</a></div><div class="ttdoc">Representa un Cluster.</div><div class="ttdef"><b>Definition:</b> <a href="_cluster_8hh_source.html#l00021">Cluster.hh:21</a></div></div>
+<div class="ttc" id="aclass_priority_html"><div class="ttname"><a href="class_priority.html">Priority</a></div><div class="ttdoc">Representa una Prioridad.</div><div class="ttdef"><b>Definition:</b> <a href="_priority_8hh_source.html#l00019">Priority.hh:19</a></div></div>
+<div class="ttc" id="aclass_proceso_html"><div class="ttname"><a href="class_proceso.html">Proceso</a></div><div class="ttdoc">Representa un Proceso.</div><div class="ttdef"><b>Definition:</b> <a href="_proceso_8hh_source.html#l00018">Proceso.hh:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
