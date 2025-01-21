@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domini.distributions.TestGraphAdjacencyList" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-12-23T16:38:57" hostname="OTMAN" time="0.001">
+  <properties/>
+  <testcase name="testAddEdgeAndGetNumEdges" classname="domini.distributions.TestGraphAdjacencyList" time="0.0"/>
+  <testcase name="testFindEulerianCycle" classname="domini.distributions.TestGraphAdjacencyList" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

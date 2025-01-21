@@ -1,0 +1,32 @@
+"==== JOC DE PROVES: LLISTES ===="
+
+"La llista original és: "
+(1 2 3 4 5)
+
+"És la llista buida? "
+#f
+
+"El primer element (car) és: "
+1
+
+"La llista sense el primer element (cdr) és: "
+(2 3 4 5)
+
+"Afegim un 0 al principi (cons 0 llista): "
+(0 1 2 3 4 5)
+
+"La llista que seguim tenint a la pila: "
+(1 2 3 4 5)
+
+"Afegim realment l'element 0 a llista mitjançant la redefinició d'aquesta: "
+(0 1 2 3 4 5)
+
+"Treiem el primer element de la llistamitjançant la redefinició d'aquesta: "
+(1 2 3 4 5)
+
+"La multiplicació de tots els elements de la llista és: "
+120
+
+
+"==== FI DEL JOC DE PROVES ===="
+

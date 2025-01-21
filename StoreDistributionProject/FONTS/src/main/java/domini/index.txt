@@ -1,0 +1,14 @@
+Aquest directori conte els components principals de la capa de Domini. A continuacio es detalla el contingut:
+
+1. distributions/
+    Directori on es troben els fitxers necessaris per calcular la distribucio de l'aplicacio.
+    
+2. models/
+    Directori on es troben les classes que defineixen els models de l'aplicacio
+    
+3. CtrlDistribucion.java
+    Classe que defineix el controlador de les distribucion de l'aplicacio.
+    
+4. CtrlDomini.java
+    Classe que defineix el controlador de la capa de domini de l'aplicacio.
+

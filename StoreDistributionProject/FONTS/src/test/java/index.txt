@@ -1,0 +1,13 @@
+Aquest directori conté els subdirectoris amb les proves relacionades amb els diferents components del projecte. Es detalla el contingut següent:
+
+1. models/  
+   Directori que inclou les classes de prova per verificar el comportament de les classes del paquet models.  
+   Observacions:  
+   - Cada classe de prova està associada a una classe específica dins del paquet models.  
+
+2. distributions/  
+   Directori que conté les proves per validar el funcionament de les classes relacionades amb les distribucions.  
+   Observacions:  
+   - Les proves asseguren la correcta implementació de les funcionalitats associades a distribucions.  
+
+

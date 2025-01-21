@@ -1,0 +1,27 @@
+Aquest directori conte les classes relacionades amb la implementacio de distribucions i estructures gràfiques utilitzades en el projecte. A continuacio es descriuen els fitxers:
+
+1. Cycle.java  
+   Classe per a la deteccio de cicles en grafos.
+
+2. DisjointSet.java  
+   Classe que implementa una estructura de conjunt disjunt (Union-Find) per a la gestio d'elements en particions.
+
+3. Distribution.java  
+   Classe base que defineix el comportament general d'una distribucio.
+
+4. DistributionAprox.java  
+   Classe per a la implementacio d'una distribucio aproximada.
+
+5. DistributionFuerzaBruta.java  
+   Classe que implementa la distribucio mitjançant un algorisme de força bruta.
+
+6. Graph.java  
+   Classe que representa un graf generic amb funcionalitats bàsiques.
+
+7. GraphAdjacencyList.java  
+   Classe que implementa un graf utilitzant una llista d'adjacencia.
+
+8. GraphAdjacencyMatrix.java  
+   Classe que implementa un graf utilitzant una matriu d'adjacencia.
+
+

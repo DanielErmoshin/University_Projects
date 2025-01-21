@@ -1,0 +1,28 @@
+Aquest directori conte els components principals de la capa de Persistencia. A continuacio es detalla el contingut:
+
+1. CtrlPersistencia.java
+    Classe que defineix el controlador de la capa de persistencia de l'aplicacio.
+
+2. GestorCategories.java
+    Classe que defineix el gestor de dades de les categories de l'aplicacio.
+
+3. GestorDistribucio.java
+    Classe que defineix el gestor de dades de la distribucio de l'aplicacio.
+
+4. GestorGeneric.java
+    Classe que defineix el gestor de dades generic de l'aplicacio.
+
+5. GestorPlantilles.java
+    Classe que defineix el gestor de dades de les plantilles de l'aplicacio.
+
+6. GestorPrestatgeries.java
+    Classe que defineix el gestor de dades de les prestatgeries de l'aplicacio.
+
+7. GestorProductes.java
+    Classe que defineix el gestor de dades dels productes de l'aplicacio.
+
+8. GestorSimilituds.java
+    Classe que defineix el gestor de dades de les similituds de l'aplicacio.
+
+
+

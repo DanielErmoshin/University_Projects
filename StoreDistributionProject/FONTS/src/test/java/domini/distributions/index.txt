@@ -1,0 +1,13 @@
+Aquest directori conté les classes de prova associades al paquet distributions del projecte. A continuació es descriu el contingut:
+
+1. TestDistribucioBruta.java  
+   Classe de prova que verifica el correcte funcionament de les distribucions implementades amb força bruta.  
+   Observacions:  
+   - Inclou tests per assegurar la precisió dels resultats i el correcte maneig de casos límit.
+
+2. TestDistribucioAprox.java  
+   Classe de prova per validar les funcionalitats de les distribucions aproximades.  
+   Observacions:  
+   - Es comprova la velocitat d'execució i la qualitat dels resultats aproximats en diferents escenaris.
+
+

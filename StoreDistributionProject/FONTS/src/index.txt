@@ -1,0 +1,12 @@
+Aquest directori conte el codi font principal del projecte organitzat en diversos subdirectoris. A continuacio es detalla el contingut:
+
+1. main/
+   Inclou el codi font principal del projecte, com les classes, models i les tres capes. 
+
+
+2. test/
+   Conte els tests de JUnit per assegurar la qualitat i el correcte funcionament del codi.
+   Observacions:
+   - Inclou tests d'unitat per cada classe de Domini.
+
+

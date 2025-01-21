@@ -1,0 +1,35 @@
+"==== JOC DE PROVES ===="
+
+"-- Prova 1: Suma llegida de teclat --"
+
+"Introdueix dos valors a sumar: "
+
+"La suma és: "
+15
+
+"-- Prova 2: Condicional amb cond, else i els números negatius --"
+
+"x es igual a -18"
+
+"-- Prova 3: Condicional amb if --"
+
+"x és negatiu o zero"
+
+"-- Prova 4: Condicional amb and --"
+
+"(prova-and 3 5) => "
+"Ambdós són positius"
+
+"(prova-and -1 5) => "
+"Un o més són negatius o zero"
+
+"-- Prova 5: Condicional amb or --"
+
+"(prova-or -3 -5) => "
+"Cap ni un és positiu"
+
+"(prova-or -3 5) => "
+"Almenys un és positiu"
+
+"==== FI DEL JOC DE PROVES ===="
+

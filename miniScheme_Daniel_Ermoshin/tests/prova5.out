@@ -1,0 +1,39 @@
+"==== JOC DE PROVES: FOLDL I ZIPWITH ===="
+
+"-- Prova 1: foldl per sumar una llista --"
+
+"(foldl + 0 '(1 2 3 4 5)) => "
+15
+
+"-- Prova 2: foldl per multiplicar una llista --"
+
+"(foldl * 1 '(1 2 3 4 5)) => "
+120
+
+"-- Prova 3: zipWith per sumar dues llistes --"
+
+"(zipWith + '(1 2 3) '(4 5 6)) => "
+(5 7 9)
+
+"-- Prova 4: zipWith per multiplicar dues llistes --"
+
+"(zipWith * '(1 2 3) '(4 5 6)) => "
+(4 10 18)
+
+"-- Prova 5: zipWith amb llistes de longitud diferent --"
+
+"(zipWith + '(1 2) '(3 4 5)) => "
+(4 6)
+
+"-- Prova 5: takeWhile amb valors positius --"
+
+"(takeWhile positiu? '(1 2 -3 4 -5)) => "
+(1 2)
+
+"-- Prova 6: dropWhile amb valors positius --"
+
+"(dropWhile positiu? '(1 2 -3 4 -5)) => "
+(-3 4 -5)
+
+"==== FI DEL JOC DE PROVES ===="
+

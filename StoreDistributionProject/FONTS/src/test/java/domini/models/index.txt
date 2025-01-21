@@ -1,0 +1,22 @@
+Aquest directori conté les classes de prova associades al paquet models del projecte. A continuació es descriu el contingut:
+
+1. testsProductes.java  
+   Classe de prova que verifica el correcte funcionament de la classe Producte.  
+   Observacions:  
+   - Inclou tests per gestionar la llista d'adjacència de similituds i altres funcionalitats clau.
+
+2. testsCategoria.java  
+   Classe de prova per validar les funcionalitats de la classe Categoria.  
+   Observacions:  
+   - Inclou tests per verificar la gestió de la descripció i altres funcionalitats afegides recentment.
+
+3. TestPlantilla.java  
+   Classe de prova per assegurar el correcte comportament de la classe Plantilla.  
+   Observacions:  
+   - Es verifica la coherència de les funcionalitats segons els requisits.
+
+4. PrestatgeriaTest.java  
+   Classe de prova per comprovar la funcionalitat de la classe Prestatgeria.  
+   Observacions:  
+   - Inclou proves per validar el getter del número de prestatges i altres funcionalitats.
+

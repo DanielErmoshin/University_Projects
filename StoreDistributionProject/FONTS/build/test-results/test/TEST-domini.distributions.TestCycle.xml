@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domini.distributions.TestCycle" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-12-23T16:38:57" hostname="OTMAN" time="0.026">
+  <properties/>
+  <testcase name="testEmptyCycle" classname="domini.distributions.TestCycle" time="0.01"/>
+  <testcase name="testRepeatedVerticesAtLastAndSecondPositions" classname="domini.distributions.TestCycle" time="0.007"/>
+  <testcase name="testRepeatedVerticesAtFirstAndThirdPositions" classname="domini.distributions.TestCycle" time="0.0"/>
+  <testcase name="testRepeatedVerticesAtFirstAndSecondLastPositions" classname="domini.distributions.TestCycle" time="0.0"/>
+  <testcase name="testRemoveLastElement" classname="domini.distributions.TestCycle" time="0.001"/>
+  <testcase name="testDeleteRepeatedVertices" classname="domini.distributions.TestCycle" time="0.0"/>
+  <testcase name="testMultipleRepeatedVertices" classname="domini.distributions.TestCycle" time="0.003"/>
+  <testcase name="testRepeatedVerticesAtLastAndThirdLastPositions" classname="domini.distributions.TestCycle" time="0.001"/>
+  <testcase name="testAddEdgesNoRepeatedVertices" classname="domini.distributions.TestCycle" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+Aquest directori conte les classes que representen els models principals del projecte. Cada classe defineix els elements essencials del domini de l'aplicacio. A continuacio es detalla el contingut:
+
+1. Categoria.java  
+   Classe que representa una categoria dins del sistema.  
+   Observacions:  
+   - Inclou atributs per la identificacio i descripcio de la categoria.  
+   - Permet gestionar les categories associades als productes.
+
+2. Plantilla.java  
+   Classe base per a gestionar una plantilla dins del sistema.
+   Observacions:  
+   - S'utilitza com a referencia per configurar determinats elements.  
+   - Proporciona funcionalitats generiques per l'ús de les classes de producte, prestatgeria i categoria.
+
+3. Prestatgeria.java  
+   Classe que modela una prestatgeria dins del sistema.  
+   Observacions:  
+   - Inclou funcionalitats per accedir al nombre de prestatges.  
+   - S'utilitza per organitzar i emmagatzemar elements.
+
+4. Producte.java  
+   Classe que defineix un producte dins del sistema.  
+   Observacions:  
+   - Inclou una llista d'adjacencia per gestionar les similituds amb altres productes.  
+   - Proporciona funcionalitats per afegir, eliminar i verificar similituds.
+
+

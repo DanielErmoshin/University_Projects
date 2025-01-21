@@ -1,0 +1,30 @@
+"==== JOC DE PROVES: FUNCIONS D'ORDRE SUPERIOR ===="
+
+"-- Prova 1: duplica només si > 10 --"
+
+"(aplica-si-gran duplica 15 10) => "
+30
+
+"(aplica-si-gran duplica 8 10) => "
+8
+
+"-- Prova 2: combinar amb let i E/S --"
+
+"Valor inicial: "
+50
+
+"Resultat després d'aplicar duplica només si > 30: "
+100
+
+"-- Prova 3: funció que aplica una funció sobre una altra --"
+
+"(aplica-dos-func-si-gran resta-deu duplica 60 50) => "
+110
+
+"-- Prova 4: funció que aplica 3 funcions consecutivament --"
+
+"(aplica-tres-func-si-gran resta-deu duplica suma-cinc 60 50) => "
+120
+
+"==== FI DEL JOC DE PROVES ===="
+

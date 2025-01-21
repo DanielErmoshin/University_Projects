@@ -1,0 +1,6 @@
+Aquest directori conté els components principals del codi font del projecte. A continuació es descriu el contingut:
+
+1. java/  
+   Directori que conté la implementació principal de l'aplicació.
+
+

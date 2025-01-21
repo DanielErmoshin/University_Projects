@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domini.models.TestPlantilla" tests="31" skipped="0" failures="0" errors="0" timestamp="2024-12-23T16:38:57" hostname="OTMAN" time="0.015">
+  <properties/>
+  <testcase name="testCrearPrestatgeriaExistent" classname="domini.models.TestPlantilla" time="0.002"/>
+  <testcase name="testConstructorPlantilla" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testModificarCategoriaInexistent" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testModificarPrestatgeria" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarCategoria" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarSimilitudInexistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testnumTotalPrestatges" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testLlistaProductes" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarProducteInexistent" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testEliminarSimilitud" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testModificarPrestatgeriaInexistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarCategoriaInexistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testCrearSimilitudMateixID" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testCrearPrestatgeria" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testCrearProducteExistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarPrestatgeriaInexistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testModificarCategoria" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testSobreescriureSimilitud" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarCategoriaAmbProductes" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testLlistaSimilituds" classname="domini.models.TestPlantilla" time="0.002"/>
+  <testcase name="testCrearProducte" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testModificarProducteInexistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testLlistaCategories" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarPrestatgeria" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testCrearCategoria" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testEliminarProducte" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testCrearCategoriaExistent" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testLlistaPrestatges" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testCrearSimilitud" classname="domini.models.TestPlantilla" time="0.001"/>
+  <testcase name="testCrearCategoriaDescripcio" classname="domini.models.TestPlantilla" time="0.0"/>
+  <testcase name="testModificarProducte" classname="domini.models.TestPlantilla" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

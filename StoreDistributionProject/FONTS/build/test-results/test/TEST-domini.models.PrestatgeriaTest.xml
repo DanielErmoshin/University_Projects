@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domini.models.PrestatgeriaTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-12-23T16:38:57" hostname="OTMAN" time="0.001">
+  <properties/>
+  <testcase name="testGetNumPrestatges_negativeNumber" classname="domini.models.PrestatgeriaTest" time="0.001"/>
+  <testcase name="testGetNumPrestatges_positiveNumber" classname="domini.models.PrestatgeriaTest" time="0.0"/>
+  <testcase name="testGetNumPrestatges_zero" classname="domini.models.PrestatgeriaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

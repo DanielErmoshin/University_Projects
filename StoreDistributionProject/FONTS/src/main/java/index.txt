@@ -1,0 +1,20 @@
+Aquest directori conte els components principals del projecte organitzats en subdirectoris segons la seva funcionalitat. A continuacio es detalla el contingut:
+
+1. data/
+    Directori on s'emmagatzemen les dades de l'aplicacio. (NO TÉ INDEX PERQUE ELS ARXIUS PODEN ALTERAR)
+
+2. domini/
+    Directori on es troben les classes que defineixen la lògica de l'aplicacio.
+
+3. exceptions/
+    Directori on es troben les classes que defineixen les excepcions de l'aplicacio.
+
+4. persistencia/
+    Directori on es troben les classes que defineixen la persistencia de l'aplicacio.
+
+5. presentacio/
+    Directori on es troben les classes que defineixen la interfície de l'aplicacio.
+
+6. Main.java
+    Classe principal de l'aplicacio que conte el metode main.
+

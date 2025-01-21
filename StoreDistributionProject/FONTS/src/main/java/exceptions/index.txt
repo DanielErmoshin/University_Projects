@@ -1,0 +1,8 @@
+Aquest directori conte les classes relacionades amb la gestio d'excepcions específiques del projecte. A continuacio es detalla el contingut:
+
+1. MyException.java  
+   Classe base per a la gestio d'excepcions personalitzades.  
+   Observacions:  
+   - Permet capturar i gestionar errors específics de l'aplicacio.
+
+

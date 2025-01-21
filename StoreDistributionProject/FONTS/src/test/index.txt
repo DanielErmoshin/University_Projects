@@ -1,0 +1,8 @@
+Aquest directori conté les proves del projecte. Cada element aquí està dissenyat per assegurar el correcte funcionament de les funcionalitats implementades a les classes del projecte. A continuació es detalla el contingut:
+
+1. java/  
+   Directori que conté les classes de proves implementades en Java.  
+   Observacions:  
+   - Les proves estan organitzades en subdirectoris segons els components del sistema.  
+   - Cada classe de prova està dissenyada per verificar un conjunt específic de funcionalitats.  
+
